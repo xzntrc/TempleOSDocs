@@ -1,0 +1,19 @@
+[book]
+authors = ["Eccentrici"]
+language = "en"
+multilingual = false
+src = "src"
+title = "Learn TempleOS"
+
+[output.html]
+default-theme = "dark"
+preferred-dark-theme = "ayu"
+no-section-label = false
+
+[build]
+build-dir = "public"
+
+[preprocessor.toc]
+command = "./mdbook-toc"
+renderer = ["html"]
+
